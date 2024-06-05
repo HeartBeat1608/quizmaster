@@ -11,7 +11,7 @@
 	const dispatcher = createEventDispatcher();
 
 	function dispatch(eventName: string) {
-		return (event: any) => dispatcher(eventName, event);
+		return (event: Event) => dispatcher(eventName, event);
 	}
 </script>
 

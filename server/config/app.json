@@ -1,0 +1,4 @@
+{
+  "app_name": "QuizzMasters",
+  "jwt_key": "secret_key"
+}

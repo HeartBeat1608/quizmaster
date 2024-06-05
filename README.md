@@ -46,7 +46,7 @@ To set up QuizMaster on your local machine, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/quizmaster.git
+   git clone https://github.com/HeartBeat1608/quizmaster.git
    cd quizmaster
    ```
 
@@ -59,16 +59,18 @@ To set up QuizMaster on your local machine, follow these steps:
    ```
 
 3. **Set Up the Client**:
+_We recommend using pnpm as package manager to keep a single and consistent lockfile system_
 
    ```bash
    cd client
-   npm install
-   npm run dev
+   pnpm install
+   pnpm dev
    ```
 
 4. **Access the Application**:
 
-   Open your browser and go to `http://localhost:3000` to access the QuizMaster application.
+   Open your browser and go to `http://localhost:5173` to access the QuizMaster application.  
+   You could also go to the terminal running the client and press 'o' and Enter, to open the page in your default browser.
 
 ## Usage
 
@@ -87,9 +89,13 @@ We welcome contributions to QuizMaster! If you have ideas for improvements or ha
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
-## License
+# Licensing
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+## Current License (Pre-v1.0)
+QuizMaster is licensed under the Apache License 2.0. You may use, modify, and distribute this software in accordance with the terms of the license. See the LICENSE file for more details.
+
+## Future License (Post-v1.0)
+Upon reaching version 1.0, QuizMaster will transition to a proprietary license. Existing versions released under the Apache License 2.0 will remain under that license, but future versions will be governed by the proprietary license terms. For commercial use and licensing inquiries, please contact us at sales@quizmaster.com.
 
 ## Contact
 

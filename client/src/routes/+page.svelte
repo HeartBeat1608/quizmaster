@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="py-10 flex items-center justify-center">
+	<a class="px-4 py-3 rounded-md bg-indigo-500 text-white" href="/quiz">Go to Quizzes</a>
+</main>
