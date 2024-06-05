@@ -34,7 +34,7 @@ func Migrate(db *database.AppDatabase) error {
 	var files []string
 
 	for _, entry := range entires {
-		if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".sql") {
+		if !entry.IsDir() && strings.HasSuffix(entry.Name(), ".sql") && !strings.HasPrefix(entry.Name(), "_") {
 			files = append(files, entry.Name())
 		}
 	}
